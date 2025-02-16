@@ -1,5 +1,5 @@
 import Testing
-@testable import SnowTrails
+
 
 //MARK: Tests de la base de datos de usuarios.
 
