@@ -1,0 +1,111 @@
+{
+  "mountains": [
+    {
+      "name": "Alpina Grande",
+      "latitude": 46.0000,
+      "longitude": 7.5000,
+      "elevation": 1500.0,
+      "connections": ["Pico Nevado", "Valle Blanco", "Cumbre Azul", "Alpina Pequeña"]
+    },
+    {
+      "name": "Alpina Pequeña",
+      "latitude": 46.0022,
+      "longitude": 7.5200,
+      "elevation": 1200.0,
+      "connections": ["Alpina Grande"]
+    },
+    {
+      "name": "Pico Nevado",
+      "latitude": 46.1000,
+      "longitude": 7.6000,
+      "elevation": 1600.0,
+      "connections": ["Alpina Grande", "Lago Helado", "Cerro Plateado"]
+    },
+    {
+      "name": "Valle Blanco",
+      "latitude": 45.9000,
+      "longitude": 7.4000,
+      "elevation": 1400.0,
+      "connections": ["Alpina Grande", "Refugio Alpino"]
+    },
+    {
+      "name": "Cumbre Azul",
+      "latitude": 46.0500,
+      "longitude": 7.5500,
+      "elevation": 1550.0,
+      "connections": ["Alpina Grande", "Cerro Plateado"]
+    },
+    {
+      "name": "Lago Helado",
+      "latitude": 46.2000,
+      "longitude": 7.7000,
+      "elevation": 1700.0,
+      "connections": ["Pico Nevado", "Bosque Nevado"]
+    },
+    {
+      "name": "Bosque Nevado",
+      "latitude": 46.3000,
+      "longitude": 7.8000,
+      "elevation": 1800.0,
+      "connections": ["Lago Helado", "Cascada Blanca", "Cerro Plateado"]
+    },
+    {
+      "name": "Cerro Plateado",
+      "latitude": 46.1500,
+      "longitude": 7.6500,
+      "elevation": 1650.0,
+      "connections": ["Pico Nevado", "Cumbre Azul", "Bosque Nevado", "Cascada Blanca"]
+    },
+    {
+      "name": "Cascada Blanca",
+      "latitude": 46.2500,
+      "longitude": 7.7500,
+      "elevation": 1750.0,
+      "connections": ["Cerro Plateado", "Bosque Nevado"]
+    },
+    {
+      "name": "Refugio Alpino",
+      "latitude": 46.0500,
+      "longitude": 7.4500,
+      "elevation": 1450.0,
+      "connections": ["Valle Blanco"]
+    },
+    {
+      "name": "Refugio Aislado",
+      "latitude": 46.0000,
+      "longitude": 7.4000,
+      "elevation": 1400.0,
+      "connections": []
+    }
+  ],
+  "routes": [
+    {
+      "name": "Ruta del Pico Nevado y Lago Helado",
+      "points": ["Alpina Grande", "Pico Nevado", "Lago Helado"]
+    },
+    {
+      "name": "Ruta del Valle Blanco y Refugio Alpino",
+      "points": ["Alpina Grande", "Valle Blanco", "Refugio Alpino"]
+    },
+    {
+      "name": "Ruta de la Cumbre Azul y Cerro Plateado",
+      "points": ["Alpina Grande", "Cumbre Azul", "Cerro Plateado"]
+    },
+    {
+      "name": "Ruta del Bosque Nevado y Cascada Blanca",
+      "points": ["Lago Helado", "Bosque Nevado", "Cascada Blanca"]
+    },
+    {
+      "name": "Ruta completa de Alpina Grande a Cascada Blanca",
+      "points": ["Alpina Grande", "Pico Nevado", "Lago Helado", "Bosque Nevado", "Cascada Blanca"]
+    },
+    {
+      "name": "Ruta del Refugio Aislado",
+      "points": ["Refugio Aislado"]
+    },
+    {
+      "name": "Ruta Alpina",
+      "points": ["Alpina Grande", "Alpina Pequeña"]
+    }
+  ]
+}

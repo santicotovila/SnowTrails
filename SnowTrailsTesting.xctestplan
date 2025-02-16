@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "A49B41B0-2FA6-43DC-A33E-354BE100B753",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SnowTrails.xcodeproj",
+      "identifier" : "874A17A32D554DD800FA5A98",
+      "name" : "SnowTrails"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:SnowTrails.xcodeproj",
+        "identifier" : "874A17B52D554F6E00FA5A98",
+        "name" : "SnowTrailsTesting"
+      }
+    }
+  ],
+  "version" : 1
+}
